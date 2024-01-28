@@ -1,0 +1,7 @@
+.gallery-root {
+  background-color: black !important;
+}
+
+.gallery-root .space {
+  padding: 0 !important;
+}
