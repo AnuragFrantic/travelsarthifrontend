@@ -181,9 +181,9 @@ export const Bottom = () => {
                       <li>
                         <Link to={"/blog"}>Blogs</Link>
                       </li>
-                      {/* <li>
-                        <a href="./contact.php">Contact Us</a>
-                      </li> */}
+                      <li>
+                        <Link to={"/contact"}>Contact Us</Link>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -200,6 +200,9 @@ export const Bottom = () => {
                       </li>
                       <li>
                         <Link to={"/about"}>About Us </Link>
+                      </li>
+                      <li>
+                        <Link to={"/refund-policy"}>Refund Policy</Link>
                       </li>
                       {/* <li>
                         <a href="/terms">TERMS OF USE</a>
@@ -218,9 +221,7 @@ export const Bottom = () => {
                   </div>
                   <div className="">
                     <p className="text-white " style={{ fontSize: "16px" }}>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Eius sapiente praesentium ut in hic corporis dolorum,
-                      veritatis nemo iste perferendis.
+                      Have a question or need assistance? We're here to help! Reach out to our dedicated support team for any inquiries, booking assistance, or travel advice.
                     </p>
                   </div>
                   {/* <ul className="m-0 p-0">

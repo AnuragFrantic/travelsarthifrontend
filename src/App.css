@@ -1244,13 +1244,40 @@ p {
   .navbar.navbar-expand-lg li a {
     font-size: 12px !important;
   }
-  .phonebtn a{
+  .phonebtn a {
     font-size: 12px !important;
     padding: 12px !important;
   }
 }
 
-.phonebtn a{
+.phonebtn a {
   font-size: 12px !important;
   padding: 12px !important;
+}
+
+.breadcrumb-bg {
+  background-image: url(../src/image/contact.jpg);
+  background-position: 50%;
+  background-size: cover;
+  padding: 200px 0 125px;
+  position: relative;
+  z-index: 1;
+}
+
+.breadcrumb-bg:before {
+  background: #003580 !important;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.6 !important;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+@media (min-width: 768px) {
+  .offerbanner {
+    height: 500px;
+  }
 }

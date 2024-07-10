@@ -325,7 +325,7 @@ export const Main = () => {
         <Modal
           show={show}
           className="postition-relative hotelmodel"
-          size="xl"
+          size="lg"
 
           onHide={handleClose}
         >
@@ -340,7 +340,8 @@ export const Main = () => {
             closeButton
           ></Modal.Header>
           <Modal.Body className="p-0">
-            <img src={offerbanner2} style={{ height: "700px" }} className="img-fluid w-100" alt="" />
+            <a href="/package/659cf5336edbb24c601ed9ab"> <img src={offerbanner2} className="img-fluid w-100 offerbanner" alt="" /></a>
+
           </Modal.Body>
         </Modal>
       </div>

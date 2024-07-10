@@ -19,6 +19,8 @@ import Blog from "./Pages/Blog";
 import Privacy from "./Pages/Privacy";
 import About from "./Pages/About";
 import Gallery from "./Pages/Gallery";
+import Contact from "./Pages/Contact";
+import RefundPolicy from "./Pages/RefundPolicy";
 
 function App() {
 
@@ -37,6 +39,10 @@ function App() {
         </Route>
 
         <Route path="/blog" exact element={<Blog />} />
+        <Route path="/refund-policy" exact element={<RefundPolicy />} />
+
+        <Route path="/contact" exact element={<Contact />} />
+
         <Route path="/privacy" exact element={<Privacy />} />
         <Route path="/about" exact element={<About />} />
         <Route path="/gallery">

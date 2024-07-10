@@ -454,8 +454,8 @@ export const Header = () => {
                 </NavLink>
               </li>
               <li className="nav-item text-white">
-                <NavLink className="nav-link" to={"/privacy"}>
-                  Privacy Policy
+                <NavLink className="nav-link" to={"/contact"}>
+                  Contact Us
                 </NavLink>
               </li>
               {main || blog || privacy || (

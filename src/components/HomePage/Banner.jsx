@@ -33,7 +33,7 @@ import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import Gallerydata from "../../data/Gallerydata";
 import axios from "axios";
 import { BASEURL } from "../BaseUrl";
-import offerbanner from "../../image/offerbanner.avif";
+import offerbanner from "../../image/underbanner.jpg";
 import Select from "react-select";
 
 function Banner() {
