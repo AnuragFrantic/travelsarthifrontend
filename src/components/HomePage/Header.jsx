@@ -443,11 +443,11 @@ export const Header = () => {
                   Hotels
                 </NavLink>
               </li>
-              <li className="nav-item text-white">
+              {/* <li className="nav-item text-white">
                 <NavLink className="nav-link" to={"/modal"}>
                   Visa
                 </NavLink>
-              </li>
+              </li> */}
               <li className="nav-item text-white">
                 <NavLink className="nav-link" to={"/about"}>
                   About Us

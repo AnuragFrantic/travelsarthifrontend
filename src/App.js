@@ -21,6 +21,7 @@ import About from "./Pages/About";
 import Gallery from "./Pages/Gallery";
 import Contact from "./Pages/Contact";
 import RefundPolicy from "./Pages/RefundPolicy";
+import Terms from "./Pages/Terms";
 
 function App() {
 
@@ -39,6 +40,8 @@ function App() {
         </Route>
 
         <Route path="/blog" exact element={<Blog />} />
+        <Route path="/terms" exact element={<Terms />} />
+
         <Route path="/refund-policy" exact element={<RefundPolicy />} />
 
         <Route path="/contact" exact element={<Contact />} />

@@ -204,6 +204,10 @@ export const Bottom = () => {
                       <li>
                         <Link to={"/refund-policy"}>Refund Policy</Link>
                       </li>
+                      <li>
+                        <Link to={"/terms"}>Terms & Conditions</Link>
+
+                      </li>
                       {/* <li>
                         <a href="/terms">TERMS OF USE</a>
                       </li>

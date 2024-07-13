@@ -88,7 +88,7 @@ export const Icondiv = ({ handleIconClick }) => {
           <p>Hotels</p>
         </div>
 
-        <div
+        {/* <div
           onClick={() => handleItemClick("Visa")}
           onDoubleClick={() => handleItemClick("Visa")}
           className={isSelected("Visa") ? "selected" : ""}
@@ -102,7 +102,7 @@ export const Icondiv = ({ handleIconClick }) => {
             />
           </span>
           <p>Visa</p>
-        </div>
+        </div> */}
         {/* <div
           onClick={() => handleItemClick("Insurance")}
           onDoubleClick={() => handleItemClick("Insurance")}

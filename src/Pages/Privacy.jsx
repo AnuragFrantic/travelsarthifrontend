@@ -144,13 +144,13 @@ function Privacy() {
                     disclosed to us and further be shared by us with the
                     concerned service provider(s).
                   </li>
-                  <li>
+                  {/* <li>
                     If you request MYTRAVELSARTHI to provide visa-related
                     services, then copies of your passport, bank statements,
                     originals of the filled in application forms, photographs,
                     and any other information which may be required by the
                     respective embassy to process your visa application.
-                  </li>
+                  </li> */}
                   <li>
                     For international bookings, Users, in compliance with the
                     Liberalized Remittance Scheme (LRS) of RBI or any other law

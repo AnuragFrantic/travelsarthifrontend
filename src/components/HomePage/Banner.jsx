@@ -489,7 +489,7 @@ function Banner() {
                 </div>
               </>
             )}
-            {selectedIcon == "Visa" && (
+            {/* {selectedIcon == "Visa" && (
               <>
                 <div className="row h-50 w-100 align-items-center justify-content-center">
                   <div className="col-md-4 col-12 ">
@@ -507,18 +507,7 @@ function Banner() {
                       />
                     </div>
                   </div>
-                  {/* <div className="col-md-3 col-12">
-                    <div className="shadow rounded-4 p-3 bg-white">
-                      <label htmlFor="" className="fw-bold mb-2">
-                        Number of Days
-                      </label>
-                      <input
-                        type="text"
-                        placeholder="No. of Nights"
-                        className="form-control"
-                      />
-                    </div>
-                  </div> */}
+                  
                   <div className="col-md-4 col-12 ">
                     <div className="shadow rounded-4 p-3 bg-white">
                       <label htmlFor="" className="fw-bold mb-2">
@@ -533,7 +522,7 @@ function Banner() {
                   </div>
                 </div>
               </>
-            )}
+            )} */}
             {selectedIcon == "Insurance" && (
               <>
                 <div className="row h-50 w-100 align-items-center justify-content-center">
