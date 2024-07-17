@@ -2,7 +2,7 @@ import styled from "styled-components";
 export const Icondivcss = styled.div`
   .icondiv {
     height: 74px;
-    width: 50%;
+    width: 30%;
     padding-top: 5px;
     margin: auto;
     background: white;
@@ -14,7 +14,7 @@ export const Icondivcss = styled.div`
     box-shadow: 1px 3px 5px #c0c0c0;
     p {
       padding: 0px;
-      margin: -6px;
+      margin: 0px;
       color: #555454;
       font-size: 13px;
     }

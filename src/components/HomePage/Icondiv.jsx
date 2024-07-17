@@ -10,7 +10,7 @@ import hotel from "../../image/hotel.png";
 import insurance from "../../image/insurance.png";
 
 export const Icondiv = ({ handleIconClick }) => {
-  const [selectedItem, setSelectedItem] = useState("Flights");
+  const [selectedItem, setSelectedItem] = useState("Package");
 
   // const handleItemClick = (item) => {
   //   if (selectedItem === item) {
@@ -41,7 +41,7 @@ export const Icondiv = ({ handleIconClick }) => {
   return (
     <Icondivcss>
       <div className="icondiv">
-        <div
+        {/* <div
           onClick={() => handleItemClick("Flights")}
           onDoubleClick={() => handleItemClick("Flights")}
           className={isSelected("Flights") ? "selected" : ""}
@@ -55,7 +55,7 @@ export const Icondiv = ({ handleIconClick }) => {
             />
           </span>
           <p>Flights</p>
-        </div>
+        </div> */}
         <div
           onClick={() => handleItemClick("Package")}
           onDoubleClick={() => handleItemClick("Package")}

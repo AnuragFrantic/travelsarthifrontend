@@ -87,7 +87,7 @@ function Banner() {
     }
   }, []);
 
-  const [selectedIcon, setSelectedIcon] = useState("Flights");
+  const [selectedIcon, setSelectedIcon] = useState("Package");
   const [searchbtn, setsearchbtn] = useState("");
 
   const handleIconClick = (iconName) => {

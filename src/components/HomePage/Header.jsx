@@ -132,7 +132,7 @@ export const Header = () => {
     localStorage.setItem("myKey", JSON.stringify(data));
   };
 
-  const [selectedIcon, setSelectedIcon] = useState("Flights");
+  const [selectedIcon, setSelectedIcon] = useState("Package");
   const [searchbtn, setsearchbtn] = useState("");
 
   const handleIconClick = (iconName) => {
