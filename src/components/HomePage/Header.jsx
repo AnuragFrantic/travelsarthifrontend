@@ -438,11 +438,11 @@ export const Header = () => {
                 </NavLink>
               </li>
 
-              <li className="nav-item text-white">
+              {/* <li className="nav-item text-white">
                 <NavLink className="nav-link" to={"/modal"}>
                   Hotels
                 </NavLink>
-              </li>
+              </li> */}
               {/* <li className="nav-item text-white">
                 <NavLink className="nav-link" to={"/modal"}>
                   Visa

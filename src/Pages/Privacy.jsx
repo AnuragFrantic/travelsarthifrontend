@@ -394,7 +394,7 @@ function Privacy() {
                 <h4 className="fw-bold text-dark mb-2">
                   Service Providers and suppliers:
                 </h4>
-                <p>
+                {/* <p>
                   Your information shall be shared with the end service
                   providers like airlines, hotels, bus service providers, cab
                   rental, railways or any other suppliers who are responsible
@@ -411,7 +411,7 @@ function Privacy() {
                   accountable for the same. You are therefore advised to review
                   the privacy policies of the respective service provider or
                   supplier whose services you choose to avail.
-                </p>
+                </p> */}
                 <p>
                   MYTRAVELSARTHI does not sell or rent individual customer names
                   or other Personal Information of Users to third parties except

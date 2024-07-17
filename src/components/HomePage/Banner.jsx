@@ -262,10 +262,10 @@ function Banner() {
           <div class="snow2"></div>
 
           <Bookingcss>
-            <Icondiv
+            {/* <Icondiv
               className="icondiv"
               handleIconClick={handleIconClick}
-            ></Icondiv>
+            ></Icondiv> */}
             {/* {selectedIcon == "Package" && (
               <ul
                 className="nav nav-pills mb-3 gap-3 justify-content-center"
@@ -319,7 +319,7 @@ function Banner() {
             {selectedIcon == "Flights" && (
               <>
                 {/* <Fromto handleChange={handleData} /> */}
-                <div className="row align-items-center justify-content-center gy-2">
+                <div className="row align-items-center justify-content-center gy-2 ">
                   <div className="col-md-2 col-6">
                     <div className="shadow rounded-4 p-3 bg-white">
                       <label htmlFor="" className="fw-bold mb-2">
@@ -406,7 +406,7 @@ function Banner() {
               <>
                 <div
                   className="row h-50 w-100 align-items-center justify-content-center packagebox"
-                  style={{ position: "relative", bottom: "0" }}
+                  style={{ position: "relative", bottom: "0", paddingTop: "50px" }}
                 >
                   <div className="col-md-11 col-12 ms-md-0 ms-3">
                     <div className="">

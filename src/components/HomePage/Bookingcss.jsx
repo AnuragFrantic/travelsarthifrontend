@@ -13,7 +13,8 @@ export const Bookingcss = styled.div`
 
   @media (max-width: 768px) {
     width: 98%;
-    height: 500px;
+    height: 340px;
+    padding:10px;
   }
 
   .icondiv {
